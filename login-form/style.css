@@ -1,0 +1,36 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html, body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background-color: #4fa5d8;
+}
+
+.wrapper {
+  width: 440px;
+  background-color: #daeaf7;
+  border-radius: 10px;
+}
+
+.wrapper #title {
+  text-align: center;
+  line-height: 80px;
+  background-color: #0855b1;
+  border-radius: 10px 10px 0px 0px;
+  color: #daeaf7;
+}
+
+.wrapper form {
+  padding: 30px;
+}
+
+.wrapper form .input-group {
+  background-color: yellow;
+}
+
