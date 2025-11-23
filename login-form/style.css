@@ -31,6 +31,24 @@ html, body {
 }
 
 .wrapper form .input-group {
-  background-color: yellow;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
+
+.wrapper form .input-group input {
+  height: 100%;
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.wrapper form .input-group label {
+  font-size: 16px;
+  padding: 2px;
+}
+
+
 
