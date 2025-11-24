@@ -53,4 +53,4 @@ withdrawButton.addEventListener("click", () => {
 updateBalanceDisplay();
 showMessage("Welcome to Simple Bank.");
 
-//npx tsc src/main.ts --target ES6 --outFile main.js
+// use this to recompile after changes: npx tsc src/main.ts --target ES6 --outFile main.js
