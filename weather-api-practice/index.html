@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>weather-api-practice</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+  <div class="container">
+
+    <div class="search">
+      <input id="city" type="text" placeholder="Enter City Name" spellcheck="false">
+      <button id="btn">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+
+    <div class="weather">
+      <img src="img/weather1.png" alt="">
+      <h1 class="temp">22°c</h1>
+      <h2 class="city">Tunisia</h2>
+      <div class="details">
+        <div class="col">
+          <img src="img/weather.png" alt="">
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="img/wind.png" alt="">
+          <div>
+            <p class="wind">5 Km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="dist/main.js"></script>
+</body>
+</html>
